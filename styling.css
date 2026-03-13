@@ -1,0 +1,117 @@
+.bg-section {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+    z-index: -100;
+}
+.header {
+    font-size: 7vw;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+.lap {
+    font-size: 5vw;
+    text-align-last: end;
+    color: white;
+    margin-right: 37px;
+}
+.timer {
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    margin-top: 20px;
+}
+.startbtn {
+    color: white;
+    background-color: #dda14b;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+ 
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.lapbtn {
+    color: white;
+    background-color: #dda14b;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.startbtn:hover {
+    color: #dda14b;
+    background-color: white;
+}
+.lapbtn:hover {
+    color: #dda14b;
+    background-color: white
+}
+.startbtn:active{
+    color:#DDA14B;
+    background-color: white;
+}
+.lapbtn:active{
+    color:#DDA14B;
+    background-color: white;
+}
+#Laps{
+    max-height:270px;
+    overflow-y:scroll;
+}
+.lapend{
+    color:white;
+    height:50px;
+    border-bottom:1px solid white;
+    margin:20px;
+}
+.laptitle{
+    font-size:2vw;
+    float:left;
+}
+.laptime{
+    font-size:2vw;
+    float:right;
+}
+@media(max-width:768px){
+    .lapbtn {
+    color: white;
+    background-color: #dda14b;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+  .startbtn {
+    color: white;
+    background-color: #dda14b;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+}
